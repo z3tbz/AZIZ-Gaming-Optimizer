@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://z3tbz.github.io/AZIZ-Gaming-Optimizer/sitemap.xml
