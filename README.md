@@ -5,7 +5,7 @@
 <p align="center">One click: lower latency, steadier FPS, RAM use down to 1.6–2.5 GB and 40–60 background processes instead of 150+.<br>Windows 10 / 11 · x64 · free</p>
 
 <p align="center">
-  <a href="https://github.com/z3tbz/AZIZ-Gaming-Optimizer/raw/main/AZIZ-Gaming-Optimizer-1.9.6.zip"><b>⬇ Download AZIZ Gaming Optimizer 1.9.6</b></a>
+  <a href="https://github.com/z3tbz/AZIZ-Gaming-Optimizer/raw/main/AZIZ-Gaming-Optimizer-1.9.7.zip"><b>⬇ Download AZIZ Gaming Optimizer 1.9.7</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/z3tbz/AZIZ-Gaming-Optimizer/raw/main/AZIZ-AME-1.9.6.apbx">AME Wizard playbook</a>
   &nbsp;·&nbsp;
@@ -14,7 +14,7 @@
 
 ## How to download
 
-1. Click **Download AZIZ Gaming Optimizer 1.9.6** above.
+1. Click **Download AZIZ Gaming Optimizer 1.9.7** above.
 2. Extract the whole zip.
 3. Run `AZIZGamingOptimizer.exe` as administrator.
 
@@ -31,6 +31,6 @@ Only the latest version can be downloaded. Older versions are listed in [Release
 
 4K fits any screen. The app also draws them at your exact screen resolution (Settings, or automatically with Optimize).
 
-## What's new in 1.9.6
+## What's new in 1.9.7
 
-See the [1.9.6 release notes](https://github.com/z3tbz/AZIZ-Gaming-Optimizer/releases/latest).
+One-click Optimize with two profiles (Ultra Low Latency and Low Latency), new logo and identity, automatic RAM cleaner, exact live state for every control with details, updated Recommended services, NoSteamWebHelper, DX11 Fullscreen, AZIZ wallpapers, new Scan & Debloat and a deep uninstaller.
