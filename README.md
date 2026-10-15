@@ -24,12 +24,12 @@ Only the latest version can be downloaded. Older versions are listed in [Release
 
 ## AZIZ wallpapers
 
-| Horizon | Split |
+| Horizon (official) | Split |
 |---|---|
 | <img src="assets/wallpaper-horizon.jpg" width="380" alt="AZIZ Horizon"> | <img src="assets/wallpaper-split.jpg" width="380" alt="AZIZ Split"> |
 | [⬇ Download 4K](https://github.com/z3tbz/AZIZ-Gaming-Optimizer/raw/main/wallpapers/AZIZ-Horizon-3840x2160.png) | [⬇ Download 4K](https://github.com/z3tbz/AZIZ-Gaming-Optimizer/raw/main/wallpapers/AZIZ-Split-3840x2160.png) |
 
-4K fits any screen. The app also draws them at your exact screen resolution (Settings, or automatically with Optimize).
+Horizon is the official AZIZ wallpaper: Optimize sets it automatically at your exact screen resolution. Split is available in Settings. The 4K files fit any screen.
 
 ## What's new in 1.9.7
 
