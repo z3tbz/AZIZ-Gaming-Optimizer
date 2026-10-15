@@ -3,193 +3,245 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>عزيز أوبتمايزر قيمنق · AZIZ Gaming Optimizer</title>
-<meta name="description" content="عزيز أوبتمايزر قيمنق (AZIZ Gaming Optimizer): تطبيق ويندوز مجاني لتسريع الألعاب وتقليل اللو لاتنسي وضبط التعريفات والخدمات من مكان واحد. تحميل الإصدار 1.9.6.">
-<meta name="keywords" content="عزيز أوبتمايزر قيمنق, عزيز قيمنق, AZIZ Gaming Optimizer, AZIZ Optimizer, تسريع الألعاب, لو لاتنسي, low latency, gaming optimizer, ويندوز">
+<title>عزيز أوبتمايزر قيمنق · AZIZ Gaming Optimizer — تسريع الألعاب وتقليل اللو لاتنسي</title>
+<meta name="description" content="عزيز أوبتمايزر قيمنق (AZIZ Gaming Optimizer): تطبيق ويندوز مجاني بضغطة وحدة يقلل اللو لاتنسي ويثبت الفريمات، ينزل استهلاك الرام إلى 1.6–2.5 جيجا والعمليات إلى 40–60 بدل 150+. بروفايلات Ultra Low Latency و Low Latency، خدمات، تنظيف، منظف رام تلقائي وأدوات NVIDIA.">
+<meta name="keywords" content="عزيز أوبتمايزر قيمنق, عزيز قيمنق, AZIZ Gaming Optimizer, AZIZ Optimizer, تسريع الألعاب, تقليل اللو لاتنسي, تقليل استهلاك الرام, تسريع ويندوز للألعاب, low latency, ultra low latency, gaming optimizer, Windows 11 gaming tweaks, debloat">
+<link rel="canonical" href="https://z3tbz.github.io/AZIZ-Gaming-Optimizer/">
 <meta property="og:title" content="عزيز أوبتمايزر قيمنق · AZIZ Gaming Optimizer">
-<meta property="og:description" content="تطبيق ويندوز مجاني لتسريع الألعاب وتقليل اللو لاتنسي.">
-<meta property="og:image" content="logo.png">
+<meta property="og:description" content="تطبيق ويندوز مجاني بضغطة وحدة: لو لاتنسي أقل، رام 1.6–2.5 جيجا، و40–60 عملية بدل 150+.">
+<meta property="og:image" content="https://z3tbz.github.io/AZIZ-Gaming-Optimizer/logo.png">
+<meta property="og:url" content="https://z3tbz.github.io/AZIZ-Gaming-Optimizer/">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#090E19">
-<meta name="robots" content="index,follow">
+<meta property="og:locale" content="ar_SA">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0A0820">
+<meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="icon" href="favicon.ico">
 <link rel="apple-touch-icon" href="logo.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"AZIZ Gaming Optimizer","alternateName":"عزيز أوبتمايزر قيمنق","operatingSystem":"Windows 10, Windows 11","applicationCategory":"UtilitiesApplication","softwareVersion":"1.9.6","fileSize":"4.0MB","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"عزيز"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"AZIZ Gaming Optimizer","alternateName":["عزيز أوبتمايزر قيمنق","AZIZ Optimizer"],"description":"Free one-click Windows gaming optimizer: lower latency, steadier FPS, RAM use down to 1.6–2.5 GB and 40–60 background processes instead of 150+.","operatingSystem":"Windows 10, Windows 11","applicationCategory":"UtilitiesApplication","softwareVersion":"1.9.6","fileSize":"27MB","downloadUrl":"https://z3tbz.github.io/AZIZ-Gaming-Optimizer/AZIZ-Gaming-Optimizer-1.9.6.zip","image":"https://z3tbz.github.io/AZIZ-Gaming-Optimizer/logo.png","url":"https://z3tbz.github.io/AZIZ-Gaming-Optimizer/","inLanguage":["ar","en"],"featureList":["One-click Optimize: Ultra Low Latency and Low Latency profiles","Toggles, Tweaks, Network, Security and Services pages with live Windows state","RAM cleaner with automatic background cleaning","Scan & Debloat and app uninstaller","Competitive mode and per-game rules","NVIDIA drivers, clean install, Profile Inspector and P0","Shader cache cleaner, disk cleanup and timer resolution test","AZIZ Backup restore point and Windows Default profile"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"عزيز"}}</script>
 <style>
-/* Same visual system as the desktop app: navy shell, side navigation, bordered cards, violet accent, cyan readouts. */
+/* Same identity as the app: deep violet → ink → navy, violet accent, golden bolt. */
 :root{
-  --bg:#090E19; --side:#0D1423; --card:#111B2C; --line:#233049; --chip:#233149;
-  --text:#F1F4FC; --muted:#8E9BB4; --purple:#A78BFA; --cyan:#44D9E8; --green:#56D6AA; --accent:#7654E8; --amber:#EAB570;
+  --bg:#0A0820; --side:#0E0C28; --card:#13122E; --line:#221F45; --chip:#1D1A40;
+  --text:#F2F0FF; --muted:#9C97C4; --violet:#9B7BFF; --violet-2:#6C3ADC; --blue:#4F8BEA; --gold:#F5B728; --green:#5ED6A6;
   --ui:"Segoe UI Variable","Segoe UI",Tahoma,"Noto Sans Arabic",system-ui,sans-serif;
   --mono:"Cascadia Mono",Consolas,ui-monospace,monospace;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
-html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--ui);font-size:15px;line-height:1.7}
+html,body{margin:0;color:var(--text);font-family:var(--ui);font-size:15px;line-height:1.75}
+body{background:linear-gradient(135deg,#1E0F3C 0%,#0A0820 38%,#06081A 62%,#0B1840 100%) fixed;background-color:var(--bg)}
 a{color:inherit}
+img{max-width:100%;display:block}
 .shell{display:grid;grid-template-columns:232px minmax(0,1fr);min-height:100vh}
-/* Sidebar (right side in RTL, as the app's left rail) */
-aside{background:var(--side);padding:30px 14px 24px;display:flex;flex-direction:column;gap:22px;position:sticky;top:0;height:100vh}
-.brand{display:flex;align-items:center;gap:12px;padding-inline:10px}
-.brand img{width:44px;height:44px}
+aside{background:rgba(6,6,20,.66);padding:28px 14px 24px;display:flex;flex-direction:column;gap:22px;position:sticky;top:0;height:100vh}
+.brand{display:flex;align-items:center;gap:12px;padding-inline:8px}
+.brand img{width:46px;height:46px;border-radius:12px}
 .brand b{display:block;font-size:24px;line-height:1.1;letter-spacing:.02em;font-weight:700}
 .brand small{display:block;font-size:9px;color:var(--muted);letter-spacing:.2em;direction:ltr;text-align:right}
 nav{display:grid;gap:4px}
-nav a{display:flex;align-items:center;gap:12px;height:43px;padding-inline:13px;border-radius:8px;text-decoration:none;font-size:16px}
-nav a:hover,nav a:focus-visible{background:#1A2238;outline:none}
-nav a.on{background:#252440}
-nav i{width:22px;height:22px;display:grid;place-items:center;font-style:normal}
-nav svg{width:20px;height:20px;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav a{display:flex;align-items:center;gap:12px;height:42px;padding-inline:13px;border-radius:10px;text-decoration:none;font-size:15px}
+nav a:hover,nav a:focus-visible{background:#1A1740;outline:none}
+nav a.on{background:#241F55}
+nav i{width:8px;height:8px;border-radius:50%;background:var(--violet);flex:none}
 .foot{margin-top:auto;padding-inline:12px;display:grid;gap:4px}
-.foot span{font-size:9px;color:var(--purple);letter-spacing:.2em;direction:ltr;text-align:right}
+.foot span{font-size:9px;color:var(--violet);letter-spacing:.2em;direction:ltr;text-align:right}
 .foot em{font-style:normal;font-size:11px;color:var(--muted);direction:ltr;text-align:right}
-/* Main column */
-main{padding:25px 32px 40px;display:grid;gap:22px;align-content:start;min-width:0}
-.top h1{margin:0;font-size:29px;font-weight:600}
-.top p{margin:6px 0 0;color:var(--muted);font-size:13px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
-.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;background:linear-gradient(15deg,#211C3C,#102739);align-items:center}
-.eyebrow{font-size:11px;color:var(--cyan);letter-spacing:.14em}
-.hero h2{margin:8px 0 6px;font-size:clamp(26px,4vw,34px);font-weight:600;line-height:1.25;text-wrap:balance}
-.hero p{margin:0;color:var(--muted);max-width:52ch}
+main{padding:26px 32px 44px;display:grid;grid-template-columns:minmax(0,1fr);gap:22px;align-content:start;min-width:0}
+.top h1{margin:0;font-size:30px;font-weight:700}
+.top p{margin:4px 0 0;color:var(--muted);font-size:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;background:linear-gradient(120deg,#3B1F86,#1A1450 55%,#13122E);border-color:#3A2C7A}
+.eyebrow{font-size:11px;color:#C9B8FF;letter-spacing:.16em;direction:ltr;text-align:right}
+.hero h2{margin:8px 0 8px;font-size:clamp(26px,4vw,36px);font-weight:700;line-height:1.25;text-wrap:balance}
+.hero p{margin:0;color:#CFC8F2;max-width:56ch}
 .ver{display:grid;justify-items:end;gap:10px}
-.ver strong{font-size:36px;color:var(--cyan);font-weight:400;direction:ltr;line-height:1}
-.ver small{color:var(--muted);font-size:11px;direction:ltr}
-.btn{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:#fff;text-decoration:none;border-radius:8px;padding:12px 22px;font-size:15px;font-weight:600;border:0;cursor:pointer;font-family:inherit}
-.btn:hover{opacity:.85}.btn:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
-.btn.ghost{background:var(--chip);color:var(--text);font-weight:400}
+.ver strong{font-size:38px;color:var(--gold);font-weight:600;direction:ltr;line-height:1}
+.ver small{color:#BDB5E6;font-size:11px;direction:ltr}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(90deg,var(--violet-2),#502EBE);color:#fff;text-decoration:none;border-radius:12px;padding:12px 22px;font-size:15px;font-weight:600;border:1px solid #AA8CFF;cursor:pointer;font-family:inherit}
+.btn:hover{filter:brightness(1.12)}.btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.btn.ghost{background:transparent;border:2px solid #9678FF;color:#CDBEFF;font-weight:600}
 .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
-.stat small{display:block;font-size:10px;color:var(--muted);letter-spacing:.08em}
-.stat b{display:block;font-size:31px;font-weight:400;margin:8px 0 2px;font-variant-numeric:tabular-nums;direction:ltr;text-align:right}
-.stat span{font-size:10px;color:var(--muted)}
-.stat svg{width:100%;height:24px;margin-top:6px}
-h3.group{margin:14px 2px 0;font-size:13px;color:var(--purple);font-weight:600}
-.list{display:grid;gap:6px}
-.row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:9px;padding:12px 16px}
-.row b{font-size:14px;font-weight:400}
-.row p{margin:4px 0 0;font-size:12px;color:var(--muted);line-height:1.6}
-.sw{width:46px;height:25px;border-radius:8px;background:var(--accent);position:relative;flex:none}
-.sw::after{content:"✓";position:absolute;inset-block:3px;left:3px;width:19px;border-radius:50%;background:#fff;color:var(--accent);font-size:11px;display:grid;place-items:center}
-.sw.off{background:#526075}.sw.off::after{content:"×";left:auto;right:3px;color:#526075}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;display:grid;gap:2px;align-content:start}
+.stat .ic{width:30px;height:30px}
+.stat small{font-size:10px;color:var(--muted);letter-spacing:.1em;direction:ltr;text-align:right}
+.stat b{font-size:30px;font-weight:600;font-variant-numeric:tabular-nums;direction:ltr;text-align:right;line-height:1.3}
+.stat span{font-size:11px;color:var(--muted)}
+.stat s{color:#7C76A8}
+.fine{font-size:11px;color:var(--muted);margin:-10px 4px 0}
+h3.group{margin:8px 2px 10px;font-size:14px;color:var(--violet);font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.row{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 16px}
+.row b{font-size:14px;font-weight:600}
+.row p{margin:4px 0 0;font-size:12.5px;color:var(--muted);line-height:1.7}
+.tag{display:inline-block;font-size:10px;color:var(--gold);border:1px solid #6A5520;border-radius:20px;padding:0 8px;margin-inline-start:6px;vertical-align:middle}
 .tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.tool{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;gap:8px;align-content:start}
-.tool header{display:flex;align-items:center;gap:12px}
-.badge{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;flex:none}
-.badge svg{width:18px;height:18px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tool{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;display:grid;gap:6px;align-content:start}
 .tool b{font-size:15px;font-weight:600}
-.tool p{margin:0;font-size:12px;color:var(--muted)}
+.tool p{margin:0;font-size:12.5px;color:var(--muted)}
+.walls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.wall{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:grid}
+.wall img{aspect-ratio:16/9;object-fit:cover;width:100%}
+.wall div{padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.wall b{font-size:15px}
 .steps{display:grid;gap:10px;counter-reset:s;margin:0;padding:0;list-style:none}
 .steps li{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start;counter-increment:s}
-.steps li::before{content:counter(s);width:34px;height:34px;border-radius:9px;background:var(--chip);color:var(--cyan);display:grid;place-items:center;font-family:var(--mono)}
+.steps li::before{content:counter(s);width:34px;height:34px;border-radius:10px;background:var(--chip);color:var(--gold);display:grid;place-items:center;font-family:var(--mono)}
 .hash{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px}
-.hash code{font-family:var(--mono);font-size:12px;direction:ltr;background:#0D1423;border:1px solid var(--line);border-radius:8px;padding:8px 10px;overflow-x:auto;max-width:100%}
-.note{font-size:11px;color:var(--muted)}
+.hash code{font-family:var(--mono);font-size:12px;direction:ltr;background:#0B0A22;border:1px solid var(--line);border-radius:8px;padding:8px 10px;overflow-x:auto;max-width:100%}
+.note{font-size:11.5px;color:var(--muted)}
+.en{direction:ltr;text-align:left}
+.en h2{margin:0 0 6px;font-size:18px}
+.en p{margin:0;color:var(--muted);font-size:13.5px}
+ul.arch{margin:8px 0 0;padding-inline-start:20px;color:var(--muted);font-size:13px}
+ul.arch b{color:var(--text)}
 footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;color:var(--muted);font-size:11px;padding-top:6px}
-@media (max-width:980px){.tools{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:1020px){.tools{grid-template-columns:repeat(2,minmax(0,1fr))}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:760px){
-  .shell{grid-template-columns:1fr}
-  aside{position:static;height:auto;padding:16px;flex-direction:row;flex-wrap:wrap;align-items:center}
-  nav{grid-auto-flow:column;overflow-x:auto;gap:4px;width:100%}
+  .shell{grid-template-columns:minmax(0,1fr)}
+  aside{position:static;height:auto;padding:14px 16px;flex-direction:row;flex-wrap:wrap;align-items:center;gap:12px}
+  nav{grid-auto-flow:column;overflow-x:auto;gap:4px;width:100%;min-width:0;scrollbar-width:none}
+  aside{min-width:0}
   nav a{height:38px;font-size:14px;white-space:nowrap}
   .foot{display:none}
-  main{padding:20px 16px 32px}
+  main{padding:18px 16px 32px}
   .hero{grid-template-columns:1fr}.ver{justify-items:start}
-  .tools{grid-template-columns:1fr}
+  .grid,.tools,.walls{grid-template-columns:minmax(0,1fr)}
 }
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 </head>
 <body>
 <div class="shell">
   <aside>
-    <div class="brand"><img src="logo.png" alt="شعار عزيز"><div><b>AZIZ</b><small>GAMING OPTIMIZER</small></div></div>
+    <div class="brand"><img src="logo.png" alt="شعار عزيز أوبتمايزر قيمنق" width="46" height="46"><div><b>AZIZ</b><small>GAMING OPTIMIZER</small></div></div>
     <nav aria-label="أقسام الصفحة">
-      <a class="on" href="#home"><i><svg viewBox="0 0 24 24" stroke="#FDBA74"><path d="M2 11 12 2l10 9M5 9v13h5v-7h5v7h5V9"/></svg></i>الرئيسية</a>
-      <a href="#toggles"><i><svg viewBox="0 0 24 24" stroke="#FACC15"><path d="M3 5h19M3 12h19M3 19h19M7 2v6M17 9v6M9 16v6"/></svg></i>الخيارات</a>
-      <a href="#tools"><i><svg viewBox="0 0 24 24" stroke="#60A5FA"><path d="M14 6a4 4 0 0 0-5 5l-6 6 3 3 6-6a4 4 0 0 0 5-5l-3 3-3-3z"/></svg></i>الأدوات</a>
-      <a href="#download"><i><svg viewBox="0 0 24 24" stroke="#38BDF8"><path d="M12 2v14M6 10l6 6 6-6M3 17v5h18v-5"/></svg></i>التحميل</a>
+      <a class="on" href="#home"><i></i>الرئيسية</a>
+      <a href="#features"><i></i>المميزات</a>
+      <a href="#tools"><i></i>الأدوات</a>
+      <a href="#wallpapers"><i></i>الخلفيات</a>
+      <a href="#download"><i></i>التحميل</a>
     </nav>
-    <div class="foot"><span>YOUR MACHINE. YOUR RULES.</span><em>V1H2 / 1.9.6</em></div>
+    <div class="foot"><span>YOUR MACHINE. YOUR RULES.</span><em>AZIZ / 1.9.6</em></div>
   </aside>
 
   <main>
-    <div class="top" id="home"><h1>عزيز أوبتمايزر قيمنق</h1><p>جهازك، بتركيز. قراءات حية وتغييرات مدروسة.</p></div>
+    <div class="top" id="home"><h1>عزيز أوبتمايزر قيمنق</h1><p>AZIZ Gaming Optimizer · تطبيق ويندوز مجاني للاعبين</p></div>
 
     <section class="card hero" aria-label="التطبيق">
       <div>
-        <div class="eyebrow">AZIZ  /  COMMAND CENTER</div>
-        <h2>كل اللي يحتاجه جهازك للألعاب، في تطبيق واحد</h2>
-        <p>لو لاتنسي أقل، فريمات أثبت، وتحكم كامل في ويندوز والتعريفات. كل خيار يقرأ حالته الحقيقية من ويندوز، وكل تغيير يحفظ الأصل عشان ترجع له.</p>
+        <div class="eyebrow">AZIZ  /  ONE CLICK</div>
+        <h2>ضغطة وحدة، وجهازك جاهز للألعاب</h2>
+        <p>اختر <b>Ultra Low Latency</b> أو <b>Low Latency</b> والتطبيق يضبط ويندوز والخدمات والشبكة والتعريفات مرة وحدة: لو لاتنسي أقل، فريمات أثبت، رام أخف، وعمليات خلفية أقل بكثير. كل خيار يقرأ حالته الحقيقية من ويندوز، وكل تغيير ينحفظ أصله عشان ترجع له.</p>
       </div>
       <div class="ver" id="download">
-        <strong>V1H2</strong><small>AZIZ  /  1.9.6</small>
+        <strong>1.9.6</strong><small>AZIZ GAMING OPTIMIZER · LATEST</small>
         <a class="btn" href="AZIZ-Gaming-Optimizer-1.9.6.zip" download>⬇ تحميل التطبيق</a>
         <a class="btn ghost" href="AZIZ-AME-1.9.6.apbx" download>بلاي بوك AME Wizard</a>
-        <small>ZIP · 27 MB · ويندوز 10 / 11 · أحدث نسخة</small>
+        <small>ZIP · 27 MB · ويندوز 10 / 11 · بدون تثبيت</small>
       </div>
     </section>
 
-    <section class="stats" aria-label="أرقام">
-      <div class="stat"><small>CONTROLS</small><b style="color:var(--purple)">138</b><span>خيار ويندوز وتعريفات</span><svg viewBox="0 0 180 24" aria-hidden="true"><polyline points="0,18 30,14 60,16 90,9 120,11 150,6 180,8" fill="none" stroke="#A78BFA" stroke-width="1.8"/></svg></div>
-      <div class="stat"><small>LIVE</small><b style="color:var(--cyan)">1s</b><span>تحديث المعالج والكرت والرام</span><svg viewBox="0 0 180 24" aria-hidden="true"><polyline points="0,12 30,8 60,15 90,10 120,13 150,7 180,11" fill="none" stroke="#44D9E8" stroke-width="1.8"/></svg></div>
-      <div class="stat"><small>SIZE</small><b style="color:var(--green)">27</b><span>ميقابايت · بدون تثبيت</span><svg viewBox="0 0 180 24" aria-hidden="true"><polyline points="0,20 30,19 60,17 90,18 120,16 150,15 180,14" fill="none" stroke="#56D6AA" stroke-width="1.8"/></svg></div>
-      <div class="stat"><small>SHORTCUTS</small><b style="color:var(--amber)">0</b><span>اختصارات تلقائية</span><svg viewBox="0 0 180 24" aria-hidden="true"><polyline points="0,12 180,12" fill="none" stroke="#EAB570" stroke-width="1.8"/></svg></div>
-    </section>
-
-    <section id="toggles" aria-label="المميزات">
-      <h3 class="group">الأداء واللو لاتنسي</h3>
-      <div class="list">
-        <div class="row"><div><b>تغييرات بالخلفية</b><p>تفعّل وتعطّل وتكمل استخدام التطبيق بدون أي تعليق؛ التغيير يكمل لحاله ويقولك النتيجة.</p></div><span class="sw" aria-hidden="true"></span></div>
-        <div class="row"><div><b>CPU و GPU Low Latency Tolerance</b><p>خيارات منفصلة للمعالج وكرت الشاشة، ومعها إيقاف Power Throttling وحالات الخنق.</p></div><span class="sw" aria-hidden="true"></span></div>
-        <div class="row"><div><b>الشبكة تتطبق فوراً</b><p>Auto-Tuning و Nagle وغيرها تتطبق مباشرة بإعادة تشغيل كرت الشبكة تلقائياً، بدون ريستارت.</p></div><span class="sw" aria-hidden="true"></span></div>
-        <div class="row"><div><b>وضع التنافسي</b><p>أنوية يدوية تُطبَّق على اللانشر قبل اللعبة، فتقبلها حتى الألعاب المحمية بالأنتي شيت، وترجع بعد ما تقفل.</p></div><span class="sw" aria-hidden="true"></span></div>
+    <section class="stats" aria-label="النتائج">
+      <div class="stat">
+        <svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="9" width="24" height="14" rx="3" fill="none" stroke="#9B7BFF" stroke-width="2"/><path d="M9 23v4M14 23v4M18 23v4M23 23v4M9 13h3v6H9zM15 13h3v6h-3zM21 13h2v6h-2z" stroke="#9B7BFF" stroke-width="2" fill="none"/></svg>
+        <small>RAM</small><b style="color:var(--violet)">1.6–2.5 GB</b><span>استهلاك الرام بعد Optimize</span>
       </div>
-      <h3 class="group">ويندوز والحماية</h3>
-      <div class="list">
-        <div class="row"><div><b>Hyper-V والفيرتوالايزيشن</b><p>إيقاف Hyper-V وكل طبقات الفيرتوالايزيشن الثانية من مكان واحد.</p></div><span class="sw off" aria-hidden="true"></span></div>
-        <div class="row"><div><b>التنظيف العميق</b><p>يفحص ويندوز ويعرض الباقي فعلاً فقط: تطبيقات، خدمات، مهام وإعدادات خصوصية. تحديثات ويندوز ما يقربها.</p></div><span class="sw" aria-hidden="true"></span></div>
-        <div class="row"><div><b>استعادة النظام</b><p>نقطة استعادة باسمك بضغطة، واستعادة حقيقية تختار فيها النقطة.</p></div><span class="sw" aria-hidden="true"></span></div>
+      <div class="stat">
+        <svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 8h20M6 14h14M6 20h9M6 26h5" stroke="#4F8BEA" stroke-width="2.4" stroke-linecap="round"/></svg>
+        <small>PROCESSES</small><b style="color:var(--blue)">40–60</b><span>عملية بالخلفية بدل <s>150+</s> في ويندوز الافتراضي</span>
+      </div>
+      <div class="stat">
+        <svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><path d="M18 3 7 18h8l-2 11 12-16h-8z" fill="#F5B728"/></svg>
+        <small>ONE CLICK</small><b style="color:var(--gold)">2</b><span>بروفايل جاهز: Ultra Low Latency و Low Latency</span>
+      </div>
+      <div class="stat">
+        <svg class="ic" viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="10" width="22" height="12" rx="6" fill="none" stroke="#5ED6A6" stroke-width="2"/><circle cx="21" cy="16" r="3.5" fill="#5ED6A6"/></svg>
+        <small>CONTROLS</small><b style="color:var(--green)">140+</b><span>خيار ويندوز وتعريفات بحالة حية</span>
+      </div>
+    </section>
+    <p class="fine">أرقام الرام والعمليات من جهاز الاختبار بعد Optimize وإعادة التشغيل، وتختلف حسب الجهاز والبرامج المثبتة.</p>
+
+    <section id="features" aria-label="المميزات">
+      <h3 class="group">Optimize والبروفايلات</h3>
+      <div class="grid">
+        <div class="row"><b>Optimize your PC for Gaming</b><p>تختار الوضع وتبدأ فوراً: التويكات، الخدمات، الشبكة، الحماية، ملف ريجستري عزيز، التنظيف، وضع MSI لكرت الشاشة، وخلفية عزيز بدقة شاشتك. كل شي ينكتب في History.</p></div>
+        <div class="row"><b>Ultra Low Latency و Low Latency</b><p>بروفايلات ثابتة: Ultra لأقل لاتنسي (تايمر 0.5ms و CPU Latency Tolerance)، و Low Latency للاستخدام اليومي مع توفير الطاقة العادي.</p></div>
+        <div class="row"><b>بروفايلاتك الخاصة</b><p>غيّر اللي تبي واحفظه باسمك، صدّر واستورد. عند التشغيل يسألك تحتفظ بالتغييرات أو ترجع للبروفايل، و Windows Default يرجعك لقيم جهازك الأصلية.</p></div>
+        <div class="row"><b>حالة حقيقية لكل خيار</b><p>زر ⓘ يعرض: قيمة جهازك الأصلية ← الحالة الآن ← قيمة البروفايل، مع كل قيمة ريجستري وهل هي شغالة أو طافية. الخيار الناقص يبان Mixed مع السبب.</p></div>
+      </div>
+
+      <h3 class="group">ويندوز والخدمات</h3>
+      <div class="grid">
+        <div class="row"><b>Toggles و Tweaks</b><p>تحديثات ويندوز، التليمتري، الإشعارات، Copilot، البحث، Hibernation، Core Parking، HPET، Dynamic Tick، تويكات المعالج والكرت، وغيرها. مقسمة بفئات تنطوي وترتيب تسحبه بنفسك.</p></div>
+        <div class="row"><b>الخدمات</b><p>الخدمات المهمة ظاهرة والباقي مطوي. Recommended يطفي البلوتوث والواي فاي والوايرلس والاتصال البعيد و Phone Link والفهرسة و BitLocker، و Minimal لأقل عدد خدمات.</p></div>
+        <div class="row"><b>الشبكة</b><p>Nagle، Auto-Tuning، Interrupt Moderation، LSO، QoS وغيرها، تتطبق فوراً بإعادة تشغيل كرت الشبكة بدون ريستارت.</p></div>
+        <div class="row"><b>الحماية والفيرتوالايزيشن</b><p>Hyper-V و VBS و Core Isolation و BitLocker وغيرها من مكان واحد، مع توصيات عزيز للألعاب.</p></div>
+      </div>
+
+      <h3 class="group">الأداء أثناء اللعب</h3>
+      <div class="grid">
+        <div class="row"><b>منظف الرام <span class="tag">جديد</span></b><p>ضغطة على وعاء الرام تنظف الذاكرة (Working Sets و Standby) بدون ديفراق. وبعدها ينظف تلقائياً بالخلفية لما يوصل الاستهلاك 80٪ وكل ساعة، حتى والتطبيق مقفل.</p></div>
+        <div class="row"><b>Competitive Mode</b><p>أنوية يدوية تتطبق على اللانشر قبل اللعبة، إيقاف خدمات مؤقت، وتنظيف Standby مع بداية كل لعبة، وكله يرجع بعد ما تقفلها.</p></div>
+        <div class="row"><b>NoSteamWebHelper <span class="tag">جديد</span></b><p>يوقف Steam Web Helper وقت اللعب، يشتغل من الـ Tray ويبدأ مع ويندوز، وتختار مكان تثبيته.</p></div>
+        <div class="row"><b>DX11 Fullscreen <span class="tag">جديد</span></b><p>تعطيل Fullscreen Optimizations لكل لعبة DirectX 11 وأقدم لحالها.</p></div>
       </div>
     </section>
 
     <section id="tools" aria-label="الأدوات">
       <h3 class="group">الأدوات</h3>
       <div class="tools">
-        <article class="tool"><header><span class="badge" style="background:linear-gradient(135deg,#76B900,#416600)"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M7 10h4v4H7z"/></svg></span><b>تعريف كرت الشاشة</b></header><p>تعريفات حديثة وقديمة لكرتك، تثبيت نظيف، بروفايل لو لاتنسي، بروفايل لكل لعبة، و P0.</p></article>
-        <article class="tool"><header><span class="badge" style="background:linear-gradient(135deg,#F59E0B,#875706)"><svg viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></svg></span><b>تعريفات البايوس</b></header><p>يقرأ جهازك ويفتح صفحة البايوس والتعريفات الخاصة بموديلك بالضبط.</p></article>
-        <article class="tool"><header><span class="badge" style="background:linear-gradient(135deg,#ED1C24,#82100F)"><svg viewBox="0 0 24 24"><path d="M4 20V8l8-5 8 5v12z"/><path d="M9 20v-6h6v6"/></svg></span><b>تعريف الشبست</b></header><p>ضغطة وحدة: يثبّت برنامج الشبست مباشرة، من ملف محلي أو من السيرفر الرسمي.</p></article>
-        <article class="tool"><header><span class="badge" style="background:linear-gradient(135deg,#EC4899,#811E54)"><svg viewBox="0 0 24 24"><path d="M12 2a6 6 0 0 1 6 6v8a6 6 0 0 1-12 0V8a6 6 0 0 1 6-6zM12 2v8"/></svg></span><b>أوفركلوك الماوس</b></header><p>رفع معدل استجابة الماوس والكيبورد مع اختبار للنتيجة.</p></article>
-        <article class="tool"><header><span class="badge" style="background:linear-gradient(135deg,#06B6D4,#03646F)"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><b>أوفركلوك الشاشة</b></header><p>دقات وريفريش ريت مخصصة، وتطبيقها بدون إعادة تشغيل.</p></article>
-        <article class="tool"><header><span class="badge" style="background:linear-gradient(135deg,#F97316,#893F0C)"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg></span><b>اختبار دقة التايمر</b></header><p>يقيس دقة تايمر ويندوز قبل وبعد التويكات.</p></article>
+        <article class="tool"><b>تعريف كرت NVIDIA</b><p>تعريفات حديثة وقديمة لكرتك، Clean Install، بروفايل لو لاتنسي عبر Profile Inspector، بروفايل لكل لعبة، و P0.</p></article>
+        <article class="tool"><b>وضع MSI للكرت</b><p>يفعّل MSI لكرت الشاشة الأساسي، ومع معالج AMD يعطيه أولوية High ومعالج مخصص.</p></article>
+        <article class="tool"><b>Scan &amp; Debloat <span class="tag">محدّث</span></b><p>يفحص ويندوز ويعرض الموجود فعلاً: تطبيقات، خدمات، مهام وإعدادات خصوصية، مع حذف Edge و WebView2.</p></article>
+        <article class="tool"><b>إلغاء تثبيت البرامج <span class="tag">جديد</span></b><p>حذف عميق يشيل البقايا، أو حذف عادي، باختيار واحد بدون رسائل.</p></article>
+        <article class="tool"><b>منظف الشيدر والقرص</b><p>يمسح كاش الشيدر لـ DirectX و NVIDIA و AMD، وتنظيف القرص بفئات تختارها.</p></article>
+        <article class="tool"><b>اختبار دقة التايمر</b><p>يطلب 0.5ms ويقيس دقة تايمر ويندوز الحقيقية.</p></article>
+        <article class="tool"><b>خطط الطاقة</b><p>استيراد خطط الطاقة وإدارتها، وحذف الخطط المستوردة.</p></article>
+        <article class="tool"><b>تعريفات البايوس والشبست</b><p>يقرأ جهازك ويفتح صفحة موديلك بالضبط، وتثبيت الشبست بضغطة.</p></article>
+        <article class="tool"><b>نقطة الاستعادة AZIZ Backup</b><p>نقطة استعادة تلقائية قبل أول تغيير، واستعادة حقيقية تختار فيها النقطة.</p></article>
       </div>
+    </section>
+
+    <section id="wallpapers" aria-label="خلفيات عزيز">
+      <h3 class="group">خلفيات عزيز <span class="tag">جديد</span></h3>
+      <div class="walls">
+        <article class="wall"><img src="assets/wallpaper-horizon.jpg" alt="خلفية عزيز Horizon" width="800" height="450" loading="lazy"><div><b>Horizon</b><a class="btn" href="wallpapers/AZIZ-Horizon-3840x2160.png" download>⬇ تحميل 4K</a></div></article>
+        <article class="wall"><img src="assets/wallpaper-split.jpg" alt="خلفية عزيز Split" width="800" height="450" loading="lazy"><div><b>Split</b><a class="btn" href="wallpapers/AZIZ-Split-3840x2160.png" download>⬇ تحميل 4K</a></div></article>
+      </div>
+      <p class="note">بدقة 4K وتنضبط على أي شاشة. التطبيق نفسه يرسمها بدقة شاشتك بالضبط من الإعدادات أو مع Optimize.</p>
     </section>
 
     <section class="card" aria-labelledby="how">
       <h3 class="group" id="how" style="margin-top:0">طريقة التشغيل</h3>
       <ol class="steps">
-        <li><span>حمّل الملف وفك الضغط في مجلد تقدر تكتب فيه، مثل سطح المكتب.</span></li>
+        <li><span>حمّل الملف وفك الضغط كامل في مجلد، مثل سطح المكتب.</span></li>
         <li><span>شغّل <b>AZIZGamingOptimizer.exe</b> واختر «نعم» لصلاحية المسؤول.</span></li>
-        <li><span>من الرئيسية سوِّ نقطة استعادة، بعدها اختر الخيارات اللي تناسبك. الخيار اللي عليه علامة ريستارت يكتمل بعد إعادة التشغيل.</span></li>
+        <li><span>اضغط <b>Optimize</b> واختر Ultra Low Latency أو Low Latency، وبعدها سوّ ريستارت.</span></li>
       </ol>
       <div class="hash"><span class="note">بصمة SHA-256:</span><code id="sha">2bfd9c71d00588cbd66d048e6850eea4f29d52fb0aa54b143530ab37aeb87593</code><button class="btn ghost" id="copy" type="button">نسخ</button></div>
       <p class="note" style="margin:10px 0 0">المتطلبات: ويندوز 10 أو 11 (64-bit) · ‎.NET Framework 4.8 · صلاحية مسؤول.</p>
     </section>
 
-    <footer><span>© 2026 عزيز · عزيز أوبتمايزر قيمنق</span><span>مجاني للاستخدام الشخصي</span></footer>
-      <section class="card" id="archive" aria-label="أرشيف الإصدارات">
-      <div class="eyebrow">ARCHIVE  /  تطور المشروع</div>
-      <h2>أرشيف الإصدارات</h2>
-      <p>التحميل متاح لأحدث نسخة فقط. هذا سجل تطور عزيز أوبتمايزر قيمنق:</p>
-      <ul>
-        <li><b>1.9.6</b> (الحالية) · بروفايلات Windows Default وAZIZ Recommended وUltra Low Latency · زر Optimize your PC for Gaming · خدمات Minimal / Recommended / Default · قراءات مباشرة بدل PowerShell واستهلاك أقل · Scan &amp; Debloat وWindows 10 Debloater · نقطة استعادة AZIZ Backup.</li>
-        <li><b>1.9.5</b> · شعار جديد · تنقل فوري بين التابات · AZIZ Recommended وMinimal للخدمات.</li>
+    <section class="card en" lang="en" dir="ltr" aria-label="In English">
+      <h2>AZIZ Gaming Optimizer — free Windows gaming optimizer</h2>
+      <p>One click tunes Windows for games: pick <b>Ultra Low Latency</b> or <b>Low Latency</b> and AZIZ sets tweaks, services, network, security, registry and debloat in one go. Typical results on our test PC: RAM use 1.6–2.5 GB and 40–60 background processes instead of 150+. Live state for 140+ controls, custom profiles, a RAM cleaner with automatic background cleaning, competitive mode, NVIDIA driver tools, shader cache cleaner, timer resolution test and the AZIZ Backup restore point. Windows 10 / 11, x64, free.</p>
+    </section>
+
+    <section class="card" id="archive" aria-label="أرشيف الإصدارات">
+      <div class="eyebrow">ARCHIVE</div>
+      <h3 class="group" style="margin-top:6px">أرشيف الإصدارات</h3>
+      <p class="note" style="margin:0">التحميل متاح لأحدث نسخة فقط. هذا سجل تطور عزيز أوبتمايزر قيمنق:</p>
+      <ul class="arch">
+        <li><b>1.9.6</b> (الحالية) · بروفايلات Windows Default و Ultra Low Latency · زر Optimize your PC for Gaming · خدمات Minimal / Recommended / Default · قراءات مباشرة واستهلاك أقل · Scan &amp; Debloat · نقطة استعادة AZIZ Backup.</li>
+        <li><b>1.9.5</b> · شعار جديد · تنقل فوري بين التابات · Recommended و Minimal للخدمات.</li>
         <li><b>1.9.4</b> · Deep Sleep · تطبيق التغييرات بالتوازي · Windows Default بقيم جهازك · Deep Debloat للمكونات.</li>
-        <li><b>1.9.3</b> · شعار AZ والبرق · Basic وUltra Low Latency · البروفايلات مع Export وImport · Competitive Mode.</li>
+        <li><b>1.9.3</b> · شعار AZ والبرق · Ultra Low Latency · البروفايلات مع Export و Import · Competitive Mode.</li>
         <li><b>1.9.0</b> · الموقع الرسمي وأول إصدار عام.</li>
       </ul>
     </section>
-</main>
+
+    <footer><span>© 2026 عزيز · عزيز أوبتمايزر قيمنق · AZIZ Gaming Optimizer</span><span>مجاني للاستخدام الشخصي</span></footer>
+  </main>
 </div>
 <script>
 document.getElementById('copy').addEventListener('click',function(){var t=document.getElementById('sha').textContent,b=this;function sel(){var r=document.createRange();r.selectNodeContents(document.getElementById('sha'));var s=getSelection();s.removeAllRanges();s.addRange(r);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){b.textContent='تم النسخ';setTimeout(function(){b.textContent='نسخ';},1600);},sel);}else sel();});
